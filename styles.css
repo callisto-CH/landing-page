@@ -1,0 +1,182 @@
+body {
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.section {
+    flex: 5;
+}
+
+.call-section {
+    flex: 3;
+}
+
+img {
+    flex-shrink: 1;
+    width: 150px;
+    height: auto;
+}
+
+.card img {
+    border: solid 3px #3882F6;
+    border-radius: 8px;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.logo {
+    font-weight: 800;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+.hero-section {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.hero-header {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.card-section {
+    padding: 30px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+}
+
+.call-section {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-card {
+    flex-basis: 800px;
+}
+
+.card-header {
+    font-size: 36px;
+    font-style: extra-bold;
+    color: #1F2937
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB
+}
+
+button,
+.call-card {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 6px;
+}
+
+button {
+    padding: 4px;
+    border: none;
+    flex: 0 0 auto;
+}
+
+.call-card button {
+    border: solid white 1px;
+}
+
+.call-card {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
