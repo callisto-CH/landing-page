@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    color: #2d0f30;
 }
 
 .content {
@@ -23,18 +24,16 @@ body {
 
 img {
     flex-shrink: 1;
-    width: 150px;
-    height: auto;
+    width: auto;
+    height: 150px;
 }
-
-.card img {
-    border: solid 3px #3882F6;
+.cat img {
     border-radius: 8px;
 }
 
 .header {
-    background-color: #1F2937;
-    color: #F9FAF8;
+    background-color: #bff6fd;
+    color: #0f302d;
     display: flex;
     justify-content: space-between;
     padding: 12px;
@@ -53,9 +52,17 @@ ul {
     gap: 16px;
 }
 
+li a,
+.hero-section,
+a,
+button,
+.call-card {
+    color: #0f302d;
+}
+
 .hero-section {
-    background-color: #1F2937;
-    color: #F9FAF8;
+    background-color: #bff6fd;
+    color: #0f302d;
     padding: 30px;
     display: flex;
     justify-content: center;
@@ -68,11 +75,19 @@ ul {
     flex-direction: column;
     gap: 12px;
     align-items: flex-start;
+    max-width: 700px;
 }
 
 .hero-header {
     font-weight: 800;
     font-size: 48px;
+}
+
+.cat {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .card-section {
@@ -87,8 +102,10 @@ ul {
 .card-box {
     display: flex;
     justify-content: space-evenly;
-    max-width: 1200px;
+    align-items: flex-start;
+    max-width: 1500px;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -98,6 +115,7 @@ ul {
     align-items: center;
     text-align: center;
     gap: 12px;
+    max-width: 340px;
 }
 
 .call-section {
@@ -140,6 +158,8 @@ ul {
 .quote-author {
     display: flex;
     justify-content: flex-end;
+    font-size: 20px;
+    margin-right: 70px;
 }
 
 a {
@@ -149,19 +169,14 @@ a {
 
 button,
 .call-card {
-    background-color: #3882F6;
-    color: #E5E7EB;
+    background-color: #ffffff;
     border-radius: 6px;
 }
 
 button {
     padding: 4px;
-    border: none;
+    border: solid 1px #2ea8d4;
     flex: 0 0 auto;
-}
-
-.call-card button {
-    border: solid white 1px;
 }
 
 .call-card {
@@ -169,11 +184,16 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: solid 1px #2ea8d4;
+}
+
+.call strong {
+    font-size: 22px;
 }
 
 .footer {
-    background-color: #1F2937;
-    color: #F9FAF8;
+    background-color: #bff6fd;
+    color: #0f302d;
     padding: 12px;
     display: flex;
     justify-content: center;
